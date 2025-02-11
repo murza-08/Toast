@@ -112,7 +112,9 @@ knob.addEventListener('click', ()=>{
     })
 });
 
+
 const toastNotificationContainer = document.querySelector('.toast-notification-container');
+
 
 function toastNotification(message, importance) {
     const time = 10000;
